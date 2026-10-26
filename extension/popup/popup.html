@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Intelligence Pro</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="logo-area">
+        <span class="logo-icon">🛰️</span>
+        <div>
+          <h1 class="logo-title">Amazon Intelligence</h1>
+          <span class="logo-subtitle">by Tarik Islam (tarikislam.in)</span>
+        </div>
+      </div>
+      <div class="header-actions">
+        <span id="apiStatusBadge" class="status-badge checking">Checking API...</span>
+        <button id="openSettingsBtn" class="icon-btn" title="Settings">⚙️</button>
+      </div>
+    </header>
+
+    <!-- Nav Tabs -->
+    <nav class="nav-tabs">
+      <button class="tab-btn active" data-tab="rankTab">🎯 Rank</button>
+      <button class="tab-btn" data-tab="nicheTab">🌊 Niches</button>
+      <button class="tab-btn" data-tab="trendsTab">📈 Trends</button>
+      <button class="tab-btn" data-tab="reviewsTab">💬 Reviews</button>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="tab-content-area">
+      <!-- 1. Rank Tracker Tab -->
+      <section id="rankTab" class="tab-pane active">
+        <div class="form-group">
+          <label>Target ASIN</label>
+          <input type="text" id="rankAsin" placeholder="e.g. B09G9BL5CP" />
+        </div>
+        <div class="form-group">
+          <label>Search Keyword</label>
+          <div class="input-btn-group">
+            <input type="text" id="rankKeyword" placeholder="e.g. wireless earbuds" />
+            <button id="checkRankBtn" class="btn primary-btn">Check</button>
+          </div>
+        </div>
+        <div id="rankResult" class="result-box hidden">
+          <div class="rank-stat-grid">
+            <div class="stat-card">
+              <span class="stat-label">Position</span>
+              <span id="rankPosition" class="stat-val">-</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-label">Organic</span>
+              <span id="rankOrganic" class="stat-val">-</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-label">Page</span>
+              <span id="rankPage" class="stat-val">-</span>
+            </div>
+          </div>
+          <div id="rankProductDetails" class="product-mini-details"></div>
+        </div>
+      </section>
+
+      <!-- 2. Niche Finder Tab -->
+      <section id="nicheTab" class="tab-pane">
+        <div class="flex-row">
+          <div class="form-group flex-1">
+            <label>Min Search Vol (90d)</label>
+            <input type="number" id="minVolume" value="2500" />
+          </div>
+          <div class="form-group flex-1">
+            <label>Max Competition</label>
+            <input type="number" id="maxCompetition" value="200" />
+          </div>
+        </div>
+        <button id="scanNichesBtn" class="btn primary-btn full-width">🌊 Find Blue-Ocean Niches</button>
+        <div id="nichesList" class="niches-scroll-area">
+          <p class="placeholder-text">Click scan to query high-demand, low-competition niches.</p>
+        </div>
+      </section>
+
+      <!-- 3. Google Trends Tab -->
+      <section id="trendsTab" class="tab-pane">
+        <div class="form-group">
+          <label>Keywords (comma separated)</label>
+          <div class="input-btn-group">
+            <input type="text" id="trendsInput" value="wireless earbuds, air fryer, smart ring" />
+            <button id="fetchTrendsBtn" class="btn primary-btn">Track</button>
+          </div>
+        </div>
+        <div id="trendsList" class="trends-scroll-area">
+          <p class="placeholder-text">Enter keywords to evaluate interest velocity.</p>
+        </div>
+      </section>
+
+      <!-- 4. Review Miner Tab -->
+      <section id="reviewsTab" class="tab-pane">
+        <div class="form-group">
+          <label>Product ASIN to Analyze</label>
+          <div class="input-btn-group">
+            <input type="text" id="reviewAsin" placeholder="e.g. B09G9BL5CP" />
+            <button id="analyzeReviewsBtn" class="btn primary-btn">Analyze</button>
+          </div>
+        </div>
+        <div id="reviewsResult" class="result-box hidden">
+          <div class="sentiment-meter-bar">
+            <div id="posBar" class="bar-fill pos" style="width: 50%"></div>
+            <div id="neuBar" class="bar-fill neu" style="width: 30%"></div>
+            <div id="negBar" class="bar-fill neg" style="width: 20%"></div>
+          </div>
+          <div class="sentiment-legend">
+            <span class="legend-item pos">🟢 Pos: <b id="posCount">0</b></span>
+            <span class="legend-item neu">⚪ Neu: <b id="neuCount">0</b></span>
+            <span class="legend-item neg">🔴 Neg: <b id="negCount">0</b></span>
+          </div>
+          <div id="geminiSummaryBox" class="ai-summary-card">
+            <span class="ai-badge">🤖 Gemini AI Brief</span>
+            <p id="geminiSummaryText">Mining customer feedback...</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Bar -->
+    <footer class="app-footer">
+      <span id="footerMsg">Ready · Default: Amazon India</span>
+      <a href="https://github.com/tarikk786786/amazon-intelligence-suite" target="_blank" class="github-link">GitHub Suite ↗</a>
+    </footer>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
