@@ -1,0 +1,20 @@
+[
+  {
+    "label": "india-electronics-opportunities",
+    "marketplace_id": "A21TJRUUN4KGV",
+    "filters": {
+      "search_volume_t90_min": 2500,
+      "minimum_price": 499,
+      "maximum_price": 4999,
+      "sort_field": "searchVolumeT90",
+      "sort_order": "desc",
+      "size": 10
+    },
+    "opportunity": {
+      "min_search_volume_t90": 2500,
+      "max_brand_count": 250,
+      "min_price": 499,
+      "max_price": 4999
+    }
+  }
+]

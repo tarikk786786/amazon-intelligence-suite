@@ -1,0 +1,27 @@
+[
+  {
+    "asin": "B09G9BL5CP",
+    "keywords": [
+      "wireless earbuds",
+      "bluetooth earbuds",
+      "noise cancelling earphones",
+      "boat earbuds"
+    ],
+    "domain": "www.amazon.in",
+    "zipcode": "110001",
+    "pages": 2,
+    "is_competitor": 0
+  },
+  {
+    "asin": "B08N5WRWNW",
+    "keywords": [
+      "smart watch for men",
+      "fitness tracker",
+      "calling smartwatch"
+    ],
+    "domain": "www.amazon.in",
+    "zipcode": "110001",
+    "pages": 2,
+    "is_competitor": 1
+  }
+]

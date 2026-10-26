@@ -1,0 +1,27 @@
+[
+  {
+    "label": "india-ecommerce-trending",
+    "keywords": [
+      "air fryer",
+      "smart ring",
+      "ergonomic chair",
+      "robot vacuum",
+      "portable blender"
+    ],
+    "region": "IN",
+    "time_range": "today 3-m",
+    "language": "en-IN"
+  },
+  {
+    "label": "amazon-seller-software",
+    "keywords": [
+      "amazon fba course",
+      "helium 10 alternative",
+      "jungle scout tool",
+      "amazon product research"
+    ],
+    "region": "IN",
+    "time_range": "today 12-m",
+    "language": "en-IN"
+  }
+]

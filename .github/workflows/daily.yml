@@ -1,0 +1,38 @@
+name: Daily Amazon Intelligence Automation
+
+on:
+  schedule:
+    - cron: "30 0 * * *" # 00:30 UTC = 06:00 AM IST every day
+  workflow_dispatch:      # Allow manual on-demand execution
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  run-suite:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Execute Amazon Intelligence Suite Master Run
+        env:
+          PANGOLIN_TOKEN: ${{ secrets.PANGOLIN_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python main.py run --delay 2.5
+
+      - name: Commit Intelligence Data & Reports
+        run: |
+          git config user.name "amazon-intel-bot"
+          git config user.email "bot@tarikislam.in"
+          git add data/ reports/ config/
+          git commit -m "chore(intel): automated daily intelligence update $(date -u +%F)" || echo "No changes to commit"
+          git push

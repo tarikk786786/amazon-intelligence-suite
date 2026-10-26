@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+appinfo11.txt
+.venv/
+venv/
+.DS_Store
+Thumbs.db

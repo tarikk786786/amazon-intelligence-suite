@@ -1,0 +1,4 @@
+# Amazon Intelligence Suite
+# Zero required external dependencies — runs on Python 3.10+ standard library.
+# Optional for local development & enhancements:
+# requests>=2.31.0
