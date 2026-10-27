@@ -1,22 +1,17 @@
 # 🛰️ Amazon Intelligence Suite — Unified Daily Digest
-**Date:** 2026-10-26 | **Author:** [Tarik Islam](https://tarikislam.in) | **GitHub:** [@tarikk786786](https://github.com/tarikk786786)
+**Date:** 2026-10-27 | **Author:** [Tarik Islam](https://tarikislam.in) | **GitHub:** [@tarikk786786](https://github.com/tarikk786786)
 
 > Automated daily intelligence covering Amazon Keyword Rankings, Blue-Ocean Niches, Google Trends, and Customer Voice of Customer sentiment.
 
 ## 🤖 Gemini AI Executive Brief
 
-**Executive Summary:** Daily marketplace scan complete across keyword positions, niche opportunities, search velocity trends, and review sentiment metrics.
-
-**Action Items:**
-1. Monitor newly discovered blue-ocean niches with opportunity score > 20.
-2. Protect organic rank on top-performing search terms by maintaining inventory and review velocity.
-3. Address root-cause feedback for products showing rating dips.
+⚠️ Gemini API key not configured. Set GEMINI_API_KEY in environment or appinfo11.txt to enable AI daily briefs.
 
 ---
 
 ## 📊 KPI Dashboard Snapshot
 
-- 🎯 **Tracked Keywords Scanned:** `0`
+- 🎯 **Tracked Keywords Scanned:** `7`
 - 💎 **Blue-Ocean Niches Identified:** `0`
 - 🚀 **Rising Search Trends:** `0`
 - ⭐ **Portfolio Average Rating:** `0.0 / 5.0`
@@ -27,6 +22,13 @@
 
 | ASIN | Keyword | Market | Total Rank | Organic Rank | Type |
 |---|---|---|---|---|---|
+| `B09G9BL5CP` | **wireless earbuds** | www.amazon.in | - | - | 🌿 Organic |
+| `B09G9BL5CP` | **bluetooth earbuds** | www.amazon.in | - | - | 🌿 Organic |
+| `B09G9BL5CP` | **noise cancelling earphones** | www.amazon.in | - | - | 🌿 Organic |
+| `B09G9BL5CP` | **boat earbuds** | www.amazon.in | - | - | 🌿 Organic |
+| `B08N5WRWNW` | **smart watch for men** | www.amazon.in | - | - | 🌿 Organic |
+| `B08N5WRWNW` | **fitness tracker** | www.amazon.in | - | - | 🌿 Organic |
+| `B08N5WRWNW` | **calling smartwatch** | www.amazon.in | - | - | 🌿 Organic |
 
 ---
 
