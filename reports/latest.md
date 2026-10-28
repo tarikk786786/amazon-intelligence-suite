@@ -1,5 +1,5 @@
 # 🛰️ Amazon Intelligence Suite — Unified Daily Digest
-**Date:** 2026-10-27 | **Author:** [Tarik Islam](https://tarikislam.in) | **GitHub:** [@tarikk786786](https://github.com/tarikk786786)
+**Date:** 2026-10-28 | **Author:** [Tarik Islam](https://tarikislam.in) | **GitHub:** [@tarikk786786](https://github.com/tarikk786786)
 
 > Automated daily intelligence covering Amazon Keyword Rankings, Blue-Ocean Niches, Google Trends, and Customer Voice of Customer sentiment.
 
@@ -11,7 +11,7 @@
 
 ## 📊 KPI Dashboard Snapshot
 
-- 🎯 **Tracked Keywords Scanned:** `7`
+- 🎯 **Tracked Keywords Scanned:** `14`
 - 💎 **Blue-Ocean Niches Identified:** `0`
 - 🚀 **Rising Search Trends:** `0`
 - ⭐ **Portfolio Average Rating:** `0.0 / 5.0`
@@ -29,6 +29,9 @@
 | `B08N5WRWNW` | **smart watch for men** | www.amazon.in | - | - | 🌿 Organic |
 | `B08N5WRWNW` | **fitness tracker** | www.amazon.in | - | - | 🌿 Organic |
 | `B08N5WRWNW` | **calling smartwatch** | www.amazon.in | - | - | 🌿 Organic |
+| `B09G9BL5CP` | **wireless earbuds** | www.amazon.in | - | - | 🌿 Organic |
+| `B09G9BL5CP` | **bluetooth earbuds** | www.amazon.in | - | - | 🌿 Organic |
+| `B09G9BL5CP` | **noise cancelling earphones** | www.amazon.in | - | - | 🌿 Organic |
 
 ---
 
