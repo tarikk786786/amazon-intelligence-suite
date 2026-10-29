@@ -1,5 +1,5 @@
 # 🛰️ Amazon Intelligence Suite — Unified Daily Digest
-**Date:** 2026-10-28 | **Author:** [Tarik Islam](https://tarikislam.in) | **GitHub:** [@tarikk786786](https://github.com/tarikk786786)
+**Date:** 2026-10-29 | **Author:** [Tarik Islam](https://tarikislam.in) | **GitHub:** [@tarikk786786](https://github.com/tarikk786786)
 
 > Automated daily intelligence covering Amazon Keyword Rankings, Blue-Ocean Niches, Google Trends, and Customer Voice of Customer sentiment.
 
@@ -11,7 +11,7 @@
 
 ## 📊 KPI Dashboard Snapshot
 
-- 🎯 **Tracked Keywords Scanned:** `14`
+- 🎯 **Tracked Keywords Scanned:** `21`
 - 💎 **Blue-Ocean Niches Identified:** `0`
 - 🚀 **Rising Search Trends:** `0`
 - ⭐ **Portfolio Average Rating:** `0.0 / 5.0`
